@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  --cor-principal: #670010;
+  --cor-segundaria:#e6e6e6;
+  --cor-backgroud: #191919;
+  --cor-backgroud_segundario:#333333;
+  --fonte-principal: "EB Garamond", serif;
+  --fonte-base: "Inter", sans-serif;
+  --font-principal-tamanho: 24px;
+  --font-subtitulo-tamanho: 16px;  
+  --font-base-tamanho: 16px;  
+}
+
+body {
+    background-color: var(--cor-backgroud);
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--cor-backgroud_segundario);
+}
+
+header div {
+    padding: 1rem;
+}
+
+header div a :hover {
+    color: var(--cor-backgroud_segundario); 
+}
+
+header div a {
+    font-family: var(--fonte-base);
+    font-size: var(--font-base-tamanho);
+    color: var(--cor-segundaria); 
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+.Corpo {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
+.Container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+}
+
+h1{
+    font-family: var(--fonte-principal);
+    font-size: var(--font-principal-tamanho);
+    color: var(--cor-principal);
+ }
+
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+p {
+    font-family: var(--fonte-base);
+    font-size: var(--font-base-tamanho);
+    color: var(--cor-segundaria);
+}
+
