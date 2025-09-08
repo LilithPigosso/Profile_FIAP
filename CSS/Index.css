@@ -1,0 +1,22 @@
+
+.Lista {
+    align-self: flex-start;
+    width: 80%;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.Lista ul li{
+    Font-family: var(--fonte-base);
+    font-size: var(--font-base-tamanho);
+    color: var(--cor-principal);
+    margin-bottom: 1rem;
+}
+
+.Lista ul p{
+    Font-family: var(--fonte-base);
+    font-size: 12px;
+    color: var(--cor-secundaria);
+    margin-bottom: 1rem;
+    max-width: 50%;
+}
