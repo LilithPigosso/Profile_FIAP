@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Notable&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&display=swap');
+
 
 :root {
   --cor-principal: #00609C;
   --cor-secundaria: #e6e6e6;
   --cor-background: #191919;
   --cor-background-secundario: #333333;
-  --fonte-principal: "Notable", sans-serif;
+  --fonte-principal: "Pacifico", cursive;
   --fonte-base: "Inter", sans-serif;
   --font-principal-tamanho: 1.5rem;
   --font-subtitulo-tamanho: 1rem;  
@@ -94,7 +95,7 @@ header div a:hover {
 h1 {
     font-family: var(--fonte-principal);
     font-size: var(--font-principal-tamanho);
-    color: var(--cor-secundaria);
+    color: var(--cor-principal);
     margin-bottom: 1rem;
 }
 
