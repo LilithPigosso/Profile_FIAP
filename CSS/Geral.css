@@ -87,9 +87,8 @@ header div a:hover {
 
 /* Texto */
 .Paragrafo {
-    flex: 2 1 400px;
     margin: 0.5rem;
-    max-width: 100%;
+    max-width: 80%;
 }
 
 h1 {
